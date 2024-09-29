@@ -1,0 +1,25 @@
+[debug] [2024-09-29T09:06:35.168Z] ----------------------------------------------------------------------
+[debug] [2024-09-29T09:06:35.175Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Shree sai\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-09-29T09:06:35.176Z] CLI Version:   13.20.1
+[debug] [2024-09-29T09:06:35.177Z] Platform:      win32
+[debug] [2024-09-29T09:06:35.177Z] Node Version:  v20.11.1
+[debug] [2024-09-29T09:06:35.177Z] Time:          Sun Sep 29 2024 14:36:35 GMT+0530 (India Standard Time)
+[debug] [2024-09-29T09:06:35.178Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-09-29T09:06:35.187Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2024-09-29T09:06:35.303Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-09-29T09:06:35.304Z] > authorizing via signed-in user (amaanpatel500@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Shree sai\Desktop\Cuvette_evaluation_project_3\Web-Story\Amaan_Story_App
+
+[debug] [2024-09-29T09:06:35.374Z] *** [apiv2] error from fetch(https://firebase-public.firebaseio.com/cli.json, {"headers":{},"method":"GET"}): FetchError: request to https://firebase-public.firebaseio.com/cli.json failed, reason: getaddrinfo ENOTFOUND firebase-public.firebaseio.com
+[warn] !  Unable to fetch the CLI MOTD and remote config. This is not a fatal error, but may indicate an issue with your network connection. 
+[debug] [2024-09-29T09:06:35.376Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
